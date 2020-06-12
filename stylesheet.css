@@ -2,6 +2,9 @@ body{
     background-color: rgba(158, 122, 45, 0.267);
     font-family: 'Raleway', sans-serif;
 }
+.info_photos{
+    margin-top: 50px;
+}
 .navbar{
     background-color: rgb(151, 98, 62);
 }
