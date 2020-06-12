@@ -1,5 +1,6 @@
 body{
     background-color: rgba(158, 122, 45, 0.267);
+    font-family: 'Raleway', sans-serif;
 }
 .navbar{
     background-color: rgb(151, 98, 62);
@@ -7,8 +8,23 @@ body{
 .brand{
     width: 400px;
 }
-.header{
+#header{
     background-image: url(https://images.unsplash.com/photo-1546962339-5ff89552b8ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80);
     background-size: cover;
     background-repeat: no-repeat;
+    clip-path: polygon(50% 0%, 100% 0, 100% 65%, 50% 100%, 0 65%,0 0);
+}
+.information h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.information p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+@media(max-width: 1154px){
+    .information p{
+        font-size: 1.3rem;
+    }
 }
