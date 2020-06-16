@@ -13,6 +13,9 @@ body{
 #navigation a:hover{
     color: rgb(245, 47, 47);
 }
+.navbar-toggler{
+    background-color: white;
+}
 .navbar{
     background-color: rgb(151, 98, 62);
 }
