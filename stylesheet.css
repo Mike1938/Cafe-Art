@@ -55,6 +55,16 @@ hr{
 #form button:hover{
     box-shadow: 2px 2px 20px rgb(204, 101, 17);
 }
+.social h4{
+    color: rgb(170, 109, 29);
+    font-weight: 700;
+}
+.social a{
+    margin-right: 10px;
+}
+.social a:last-of-type{
+    color:  #fb3958 ;
+}
 
 @media(max-width: 1154px){
     .information p{
